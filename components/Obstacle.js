@@ -14,8 +14,20 @@ const Obstacle = ({
     return (
         <>
             <View style={{
+                position: 'absolute',
+                backgroundColor:color,
+                width:obstacleWidth,
+                height:500,
+                left:obstacleLeft,
+                bottom:gapLocation +obstacleHeight+gap
             }}></View>
             <View style={{
+                position: 'absolute',
+                backgroundColor:color,
+                width:obstacleWidth,
+                height:obstacleHeight,
+                left:obstacleLeft,
+                bottom:gapLocation
             }}></View>
         </>
     )
